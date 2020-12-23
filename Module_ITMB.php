@@ -22,7 +22,7 @@ final class Module_ITMB extends GDO_Module
 	public function getDependencies()
 	{
 	    return ['JQueryMobile', 'Contact', 'FontRoboto', 'News', 'Forum', 'PM',
-	        'Login', 'Register', 'Admin', 'Account', 'Avatar',
+	        'Login', 'Register', 'Admin', 'Account', 'Avatar', 'Perf',
 	        'Address', 'ActivationAlert', 'Recovery', 'CKEditor', 'Mibbit',
 	    ];
 	}
