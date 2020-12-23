@@ -54,10 +54,11 @@ foreach ($links as $cat => $data)
     $catHeader = GDT_Headline::make()->level(2)->textRaw($cat);
     $li = GDT_ListItem::make()->gdo($skill)->creatorHeader($catHeader, 'day');
     $cont = GDT_Container::make()->vertical();
-    $contH = GDT_Container::make()->horizontal();
-    $contH->addField(GDT_Link::make()->href($url)->label($cat));
-    $contH->addField(GDT_Link::make()->href($url)->labelRaw(sprintf(' => (%s)', html($url))));
-    $cont->addField($contH);
+//     $cont->css('word-break', 'break-all');
+//     $contH = GDT_Container::make()->horizontal();
+    $cont->addField(GDT_Headline::make()->level(4)->textRaw($cat));
+    $cont->addField(GDT_Link::make()->href($url)->labelRaw(sprintf('(%s)', html($url))));
+//     $cont->addField($contH);
     $cont->addField(GDT_Paragraph::make()->textRaw($info));
     $li->content($cont);
     echo $li->renderCell();
