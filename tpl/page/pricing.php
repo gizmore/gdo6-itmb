@@ -56,7 +56,7 @@ foreach ($links as $cat => $data)
     $cont = GDT_Container::make()->vertical();
 //     $cont->css('word-break', 'break-all');
 //     $contH = GDT_Container::make()->horizontal();
-    $cont->addField(GDT_Headline::make()->level(4)->textRaw($cat));
+//     $cont->addField(GDT_Headline::make()->level(4)->textRaw($cat));
     $cont->addField(GDT_Link::make()->href($url)->labelRaw(sprintf('(%s)', html($url))));
 //     $cont->addField($contH);
     $cont->addField(GDT_Paragraph::make()->textRaw($info));
