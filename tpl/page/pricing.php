@@ -17,6 +17,7 @@ $links = array(
     'JS' => ['https://wanda.gizmore.org/wanda/credits', '2017-08-23 13:37:42.314', 'A demosite for my old framework / Hacking challenge, JS Scroller'],
     'Ruby' => ['https://github.com/gizmore/purple_ruby', '2014-09-13 13:37:42.314', 'Did some enhancements to ruburple/libpurple'],
     'Ruby ' => ['https://github.com/gizmore/ricer2', '2015-11-28 13:37:42.314', 'A highly modular chatbot in RubyOnRails'],
+    'Ruby ' => ['https://railsbin.wechall.net', '2017-12-09 13:37:42.314', 'A basic RubyOnRails app, coded in a day to create a hacking challenge with ruby.'],
     'C++' => ['https://github.com/gizmore/yabfdbg', '2008-08-08 13:37:42.314', 'An interactive Brainfuck Debugger'],
     'Java' => ['https://github.com/gizmore/jpk', '2009-01-14 13:37:42.314', 'A Java Texteditor for simple editing and crypto tasks.'],
     'Hacking' => ['https://www.wechall.net/profile/gizmore', '2008-02-14 13:37:42.314', 'My profile on wechall.net, a site from hackers for hackers.'],
