@@ -10,8 +10,8 @@ use GDO\UI\GDT_Link;
  * Website for my little company.
  * Depends on JQueryMobile theme.
  * @author gizmore
- * @version 6.10
- * @since 6.04
+ * @version 6.10.3
+ * @since 6.4.0
  */
 final class Module_ITMB extends GDO_Module
 {
@@ -29,7 +29,7 @@ final class Module_ITMB extends GDO_Module
 	
 	public function onInitSidebar()
 	{
-	    $link = GDT_Link::make('itmb_h1')->href(hrefDefault());
+	    $link = GDT_Link::make('itmb_h1')->href(href('ITMB', 'Home'));
 	    GDT_Page::$INSTANCE->topNav->addField(GDT_Headline::make()->level(1)->textRaw($link->render()));
 	}
 

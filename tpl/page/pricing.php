@@ -22,7 +22,7 @@ $links = array(
     'Java' => ['https://github.com/gizmore/jpk', '2009-01-14 13:37:42.314', 'A Java Texteditor for simple editing and crypto tasks.'],
     'Hacking' => ['https://www.wechall.net/profile/gizmore', '2008-02-14 13:37:42.314', 'My profile on wechall.net, a site from hackers for hackers.'],
     'Hacking ' => ['https://packetstormsecurity.com/files/74743/Ilch-CMS-SQL-Injection.html', '2009-02-06 13:37:42.314', 'One of the very few security holes i reported.'],
-    'Web development' => ['http://melanie-gobbo.de', '2012-07-13 13:37:42.314', 'A website i made for a friend with my old framework.'],
+//     'Web development' => ['http://melanie-gobbo.de', '2012-07-13 13:37:42.314', 'A website i made for a friend with my old framework.'],
 );
 
 class Skill extends GDO
